@@ -1,7 +1,8 @@
+import "./header.css";
 function Header() {
   return (
-    <div className="bg-warning">
-      <ul className="nav">
+    <div className="bg-warning bg-size">
+      <ul className="nav navigations">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">
             Home

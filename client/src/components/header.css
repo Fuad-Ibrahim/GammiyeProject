@@ -1,0 +1,12 @@
+.bg-size{
+    height: 100px;
+}
+
+.navigations{
+    display: flex;
+    justify-content: center;
+}
+.lists{
+    width: 20px;
+    border: 1px;
+}
