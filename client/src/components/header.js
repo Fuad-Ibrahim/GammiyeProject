@@ -3,12 +3,12 @@ function Header() {
   return (
     <div className="bg-warning bg-size">
       <ul className="nav navigations">
-        <li className="nav-item">
+        <li className="nav-item btn">
           <a className="nav-link active" aria-current="page" href="#">
             Home
           </a>
         </li>
-        <li className="nav-item dropdown">
+        <li className="nav-item dropdown btn">
           <a
             className="nav-link dropdown-toggle"
             data-bs-toggle="dropdown"
@@ -16,7 +16,7 @@ function Header() {
             role="button"
             aria-expanded="false"
           >
-            Dropdown
+            Explore
           </a>
           <ul className="dropdown-menu">
             <li>
@@ -44,9 +44,14 @@ function Header() {
             </li>
           </ul>
         </li>
-        <li className="nav-item">
+        <li className="nav-item btn">
           <a className="nav-link" href="#">
-            Link
+            Contact Us
+          </a>
+        </li>
+        <li className="nav-item btn">
+          <a className="nav-link" href="#">
+            About
           </a>
         </li>
       </ul>
